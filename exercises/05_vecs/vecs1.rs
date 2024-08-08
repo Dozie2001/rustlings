@@ -10,6 +10,8 @@ fn array_and_vec() -> ([i32; 4], Vec<i32>) {
 
 fn main() {
     // You can optionally experiment here.
+    let (a, v) = array_and_vec();
+    
 }
 
 #[cfg(test)]
